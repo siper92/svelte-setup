@@ -5,5 +5,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
-  }
+  },
+  "svelte.language-server.runtime": "/home/redder/.nvm/versions/node/v15.3.0/bin/node"
 }
