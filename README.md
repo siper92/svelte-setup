@@ -1,6 +1,6 @@
 # Svelte setup
 
-## steps
+## Steps
 
 1. get template
 
@@ -17,14 +17,22 @@ node setupTypeScript.js
 npm install
 ```
 
-3. Fix the language server by adding to the settings.json
+3. Adding sass support
 
 ```
-"svelte.language-server.runtime": "/home/redder/.nvm/versions/node/v15.3.0/bin/node"
+npm install svelte-preprocess node-sass
 ```
 
 ## Run
 
 ```
 npm run dev
+```
+
+## VS Code specific
+
+- Fix the language server by adding to the settings.json
+
+```
+"svelte.language-server.runtime": "/home/redder/.nvm/versions/node/v15.3.0/bin/node"
 ```
